@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <link href="./assets/css/index.css" rel="stylesheet">
+  <script src="./tailwind.config.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Spanty-Acueil</title>
+</head>
+
+<body class="w-full h-full font-Inter">
+  <nav class="bg-[#401408]">
+
+    <div class="flex flex-row items-center justify-around w-full mx-4 py-4">
+      <a href="#">
+        <img src="assets/img/spanty-logo.png" alt="Spanty logo">
+      </a>
+      <div>
+        <ul class="space-x-12 items-center justify-between flex w-full hover:*:text-[#275738] text-white text-2xl">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+      </div>
+      <button class="items-center bg-white border-0 py-3 px-5 text-[#401408] ">Contact Us</button>
+    </div>
+
+  </nav>
+<section class="bg-[#401408] h-full w-full flex flex-row py-8 justify-between">
+ <div class="flex-1 h-full w-full">
+  <div class="flex flex-col gap-5 ml-[13rem]">
+    <h1 class="text-[72px] text-[#F6DEE3] pb-3 font-bold">
+      Creative Real <br>
+      Estate Agency
+    </h1>
+    <p class="text-2xl text-white pb-3">
+      Spanty is an international estate company that offers <br>
+      services like propery appraisal as well as the sale, <br>
+      purchase, and investment of real estate. 
+    </p>
+    <div class="flex flex-row items-center justify-between pb-3">
+      <div class="bg-white flex flex-col p-[2rem] h-full gap-8">
+        <div class="flex flex-row w-full">
+          <div class=" pr-4 items-center">
+            <img src="assets/img/location-icon.png" alt="location">
+          </div>
+          <div>
+            <p class="text-[#686A79]">
+              Location
+            </p>
+            <h1 class="font-bold">California,US</h1>
+          </div>
+        </div>
+        <div  class="flex flex-row w-full">
+          <div class="pr-4">
+            <img src="assets/img/dollar-icon.png" alt="dollar icon">
+          </div>
+          <div>
+            <p class="text-[#686A79]">
+              Price
+            </p>
+            <h1 class="font-bold">$1500-$2000</h1>
+          </div>
+        </div>
+        <div  class="flex flex-row w-full">
+          <div class="pr-4">
+            <img src="assets/img/calques-icon.png" alt="suite">
+          </div>
+          <div>
+            <p class="text-[#686A79]">
+              Type of Property
+            </p>
+            <h1 class="font-bold">Apartement</h1>
+          </div>
+        </div>
+
+        <button class="border-none rounded-none bg-black text-white font-bold h-[3rem]">Search</button>
+      </div>
+      <div class="flex flex-col text-white pr-[3rem]">
+        <h1 class="font-bold text-[2rem] mb-[1rem]">Our Services</h1>
+        <div class="mb-[4rem]">
+          <img src="assets/img/coin.png" alt="coin">
+          <p class="mt-3">
+            The price we offer accordance <br>
+            with the quality we provide <br>
+          </p>
+        </div>
+        <div>
+          <img src="assets/img/gift.png" alt="En cadeau">
+          <p class="mt-3">
+            Official legality in the relevant <br>
+            government <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+  <div class="flex-1">
+    <img src="assets/img/Maison-landing.png" alt="l'image charge" class="border-0 h-full w-full border-transparent rounded-none">
+  </div>
+</section>
+</body>
+
+</html>
